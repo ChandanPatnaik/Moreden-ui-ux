@@ -26,6 +26,13 @@
     align-items: center;
     margin: 4rem 0 2rem;
 }
+.gpt3__whatgpt3__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
 .gpt3__whatgpt3__heading h1{
     font-family: var(--font-family);
     font-size: 34px;
@@ -43,12 +50,6 @@
 }
 .gpt3__whatgpt3__heading p:hover{
     color: var(--color-subtext);
-}
-.gpt3__whatgpt3__container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2rem;
 }
 @media screen and (max-width: 850px) {
     .gpt3__whatgpt3__heading {
