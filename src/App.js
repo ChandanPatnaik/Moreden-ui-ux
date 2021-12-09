@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Header from "./container/header/Header";
 import Brand from "./components/brand/Brand";
 import Whatgpt from './container/whatgpt/Whatgpt';
-import Feature from './container/features/Features'
+import Features from './container/features/Features'
 import Possibility from './container/possibility/Possibility';
 import Cta from './components/cta/Cta';
 import Blog from './container/blog/Blog';
@@ -18,7 +18,7 @@ const App = () => {
       </div>
       <Brand />
       <Whatgpt />
-      <Feature />
+      <Features />
       <Possibility />
       <Cta />
       <Blog />
